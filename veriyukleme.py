@@ -41,3 +41,4 @@ Imputer = Imputer.fit(yas[:,1:4])
 
 yas[:,1:4] = Imputer.transform(yas[:,1:4])
 print(yas)    
+
